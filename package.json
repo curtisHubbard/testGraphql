@@ -1,0 +1,27 @@
+{
+  "name": "testGraphQL",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:curtisHubbard/testGraphql.git",
+  "author": "curtisHubbard <curtis@filmpac.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^2.19.0",
+    "express": "^4.17.1",
+    "graphql": "^15.4.0",
+    "nodemon": "^2.0.6",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.0.0",
+    "type-graphql": "^1.1.1",
+    "typeorm": "^0.2.29",
+    "typescript": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.9",
+    "@types/node": "^14.14.9",
+    "ts-node": "^9.0.0"
+  },
+  "scripts": {
+    "start": "nodemon --exec ts-node src/index.ts"
+  }
+}
